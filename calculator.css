@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+#main{
+    height: 400px;
+    width: 200px;
+    background-color:black;
+    border: 2px solid white;
+    display: flex;
+    flex-direction:column;
+    justify-content:space-around;
+    align-content: flex-start;
+}
+#display{
+    height:100px ;
+    /* width: 196px; */
+    color: black;
+    background-color:white;
+}
+#nod{
+    display: flex;
+    flex-direction: column;
+   
+}
+.buttons{
+    /* border: 2px solid yellow; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items:self-start;
+    align-content: space-around;
+}
+.no{
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-color: black;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+.op{
+    height: 50px;
+    width: 50px;
+    color: white;
+    background-color: orange;
+    border-radius: 50%;
+    border: 1px solid white;
+}
+button:active{
+    background-color: rgb(57, 54, 54);
+}

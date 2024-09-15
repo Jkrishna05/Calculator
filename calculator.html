@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="calculator.css">
+
+</head>
+<body>
+     <header></header>
+     <main>
+       
+        
+        
+        <div id="main">
+            <input  id="display" readonly>
+           <div id="nod">
+            <div class="buttons">of
+                 <button class="op"  onclick="clearall()">C</button>
+                 <button class="op"  onclick="valueof('%')">%</button>
+                 <button class="op"  onclick="clearone()">&#8592</button>
+                 <button class="op"  onclick="valueof('/')">&#247</button>
+                 <br>
+            </div>
+            
+            <div class="buttons">
+                 <button class="no"  onclick="valueof('7')">7</button>
+                <button class="no"  onclick="valueof('8')">8</button>
+                <button  class="no" onclick="valueof('9')">9</button>
+                <button class="op" onclick="valueof('-')" >-</button>
+                <br>
+            </div>
+           
+            <div class="buttons">
+                <button class="no"  onclick="valueof('4')">4</button>
+                <button class="no"  onclick="valueof('5')">5</button>
+                <button class="no"  onclick="valueof('6')">6</button>
+                <button class="op"  onclick="valueof('+')">+</button>
+                <br>
+            </div>
+           
+            <div class="buttons">
+                <button class="no" onclick="valueof('1')" >1</button>
+                <button class="no" onclick="valueof('2')" >2</button>
+                <button class="no" onclick="valueof('3')" >3</button>
+                <button class="op" onclick="valueof('*')" >*</button>
+                <br>
+            </div>
+            
+            <div class="buttons"><button class="no" onclick="valueof('0')">0</button>
+                <button class="no"  onclick="valueof('00')">00</button>
+                <button class="no"  onclick="valueof('.')">.</button>
+                <button class="op" onclick="calculate()">=</button>
+            </div>
+            
+          </div>
+          
+    
+            
+        </div>
+     </main>
+     <footer></footer>
+     <script src="calculator.js"></script>
+</body>
+</html>
